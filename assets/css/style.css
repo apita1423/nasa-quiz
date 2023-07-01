@@ -23,6 +23,13 @@ h1, h3, h4 {
     padding: 1%;
 }
 
+button {
+    padding: 12px 16px;
+    font-size: 100%;
+    margin-left: 350px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
 footer {
     color: beige;
     display: flex;
