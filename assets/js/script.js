@@ -1,4 +1,10 @@
-//Questions and Answers
+
+
+
+
+
+//event listeners
+//questions and answers
 const nasaQuestions = [
     {
         id: "1",
