@@ -7,7 +7,7 @@
     <meta name="description" content="Quiz to test your NASA knowledge">
     <meta name="keywords" content="nasa, quiz, facts, space, missions, moon landing, planets, rovers">
 
-    <!-- google fonts -->
+ <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=M+PLUS+1p&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 
 <body background="assets/images/space-background.jpg">
 
-    <!-- start screen -->
+<!-- start screen -->
     <div id="liftoff">
         <div class="liftoff-area">
             <h1 class="heading">
@@ -29,41 +29,62 @@
             <button id="lauch" class="btn">Lauch!</button>
         </div>
 
-    <!-- quiz area -->
-    <div id="quiz-options" class="hide">
-        <button>A</button>
-        <button>B</button>
-        <button>C</button>
-        <button>C</button>
+ <!-- quiz area -->
+        <div>
+
+        </div>
+        <div id="quiz-options" class="hide">
+            <button id="option-a">A</button>
+            <button id="option-b">B</button>
+            <button id="option-c">C</button>
+            <button id="option-d">D</button>
+        </div>
+
+        <div id="finish-quesiton" class="hide">
+            <button class="next-question">Next Question(Launch)</button>
+        </div>
+
+<!-- score area -->
+        <div id="score-area" class="hide">
+            <p class="scores">Right <span id="score">0</span></p>
+            <p class="scores">Wrong <span id="wrong">0</span></p>
+        </div>
+
+<!-- wrong/right and facts -->
+        <div id="right" class="hide">
+            <h3>You're Right! We are a go for launch!</h3>
+        </div>
+
+        <div id="wrong" class="hide">
+            <h3>You're Wrong! We have to scrub the launch!</h3>
+        </div>
+
+        <div id="answer-facts" class="hide">
+            <p id="nasa-facts"></p>
+        </div>
+
+<!-- finish screen -->
+        <div id="try-again-question" class="hide">
+            <p>Want to try again? Click on the Relaunch button.</p>
+        </div>
+
+        <div id="finish-screen" class="hide">
+            <button id="finish" class="hide">Finish Quiz</button>
+            <button id="relaunch" class="hide">Relaunch</button>
+        </div>
+
+        <div id="learn-about-nasa" class="hide">
+            <p>Want to learn more about what is happening at NASA? Click <a href="https://www.nasa.gov/" target="_blank" rel="noopener" aria-label="Visit the NASA page (opens in a new tab)">here.</a></p>
+        </div>
     </div>
 
-    <!-- score area -->
-    <div id="score-area" class="hide">
-        <p class="scores">Right <span id="score">0</span></p>
-        <p class="scores">Wrong <span id="wrong">0</span></p>
-    </div>
-
-    <!-- finish screen -->
-    <div>
-        <button id="finish" class="hide">Finish Quiz</button>
-        <button id="relaunch" class="hide">Relaunch</button>
-    </div>
-
-    </div>
-
-    
-
-
-
-
-
-
-
+<!-- footer -->
     <footer>
         <p>&copy; 2023 Amanda Pita - Site created for educational purposes.</p>
     </footer>
 
-    <!-- JS Script -->
+<!-- JS Script -->
     <script src="assets/js/script.js"></script>
+
 </body>
 </html>
